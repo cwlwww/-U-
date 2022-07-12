@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网页tdk，d(description)网页的描述 -->
+    <meta name="description" content="小U商城首页">
+    <!-- 网页tdk，k(keyword)关键字 -->
+    <meta name="keyword" content="web,java,前端,后端">
+    <!-- 网页tdk，t(title)题目 -->
+    <title>小U商城首页</title>
+    <!-- 引入网页图标 -->
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="a.css">
+
+    <style>
+        #head #tou li:nth-child(1) {
+            background-color: #80C4AE;
+            color: white;
+        }
+
+        #head li:nth-child(1) a {
+            color: white;
+        }
+    </style>
+
+
+    <script src="./font/iconfont.js"></script>
+</head>
+
+<body>
+
+    <div id="log">
+        <div class="log win">
+            <img id="logo" src="./image/logo.png" alt="">
+            <span class="iconfont icon-guanbi"></span>
+
+            <div id="tubiao">
+                <p class="in tip1">使用第三方软件登录</p>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-QQ"></use>
+                </svg>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                </svg>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+                </svg>
+                <p class="in tip2">使用手机号登录</p>
+            </div>
+            <input class="name" type="text" placeholder="请输入您的手机号">
+            <p class="tipp">请输入正确手机号</p>
+            <input class="password" type="password" placeholder="请输入密码">
+            <p class="tipp">请输入正确密码</p>
+            <p id="btnin">登录</p>
+            <p class="in tip3"><a>忘记密码？</a>
+                <a href="#" id="onlogout">点击注册</a>
+                <span>还没有账号？</span>
+            </p>
+        </div>
+    </div>
+    <div id="logout">
+        <div class="logout win">
+            <img id="logo" src="./image/logo.png" alt="">
+            <span class="iconfont icon-guanbi"></span>
+
+            <div id="tubiao">
+                <p class="in tip1">使用手机号注册</p>
+            </div>
+            <input class="name" type="text" placeholder="请输入您的手机号">
+            <p class="tipp">请输入正确手机号</p>
+            <input class="password" type="password" placeholder="请输入密码">
+            <p class="tipp">请输入小写字母加数字组合的密码</p>
+            <input class="password agin" type="password" placeholder="请重复输入密码">
+            <p class="tipp">请重复输入正确的密码</p>
+            <input class="yzm" type="text" placeholder="请输入验证码">
+            <p src="./image/验证码.png" alt="" id="yanzhengma">
+                <p class="tipp">请输入正确验证码</p>
+            <p href="#" id="btnin">注册</p>
+            <p href="#" class="in tip3"><a>忘记密码？</a>
+                <a href="#" id="onlogin">点击登录</a>
+                <span>已有账号？</span>
+            </p>
+        </div>
+    </div>
+    <!-- 头部 -->
+    <div id="head">
+        <div id="head2">
+            <img id="logo" src="./image/logo.png" alt="">
+            <ul id="tou">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./lession.html">同步课程</a></li>
+                <li><a href="./practice.html">在线练习</a></li>
+                <li><a href="./practice copy.html">精品课程</a></li>
+            </ul>
+            <div id="login">
+                <a href="#" id="log_in">登录 </a>
+                <a href="#"  id="log_out">注册</a>
+            </div>
+            <div id="logimg"></div>
+            <div id="loglist">
+                <img src="./img/login/jx.png" alt="">
+                <ul>
+                    <li id="username">用户名</li>
+                    <li>课程中心</li>
+                    <li>订单中心</li>
+                    <li>资金管理</li>
+                    <li>管理中心</li>
+                    <li id="quit">退出登录</li>
+                </ul>
+            </div>
+            <div id="search">
+                <a>搜索<span class="iconfont icon-daosanjiao"></span></a>
+                <input type="text" placeholder="搜索感兴趣的内容">
+                <a class="iconfont icon-sousuo"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 中间内容 -->
+    <div id="body">
+        <div id="bhead">
+            <ul id="tbanner">
+            </ul>
+            <ul id="lb">
+            </ul>
+        </div>
+        <p class="ti">同步课程</p>
+        <p class="more">更多课程
+            <span class="iconfont icon-choose"></span>
+        </p>
+        <!-- 同步课程 列表 -->
+        <ul id="tu1">
+        </ul>
+        <img src="./image/横通.png" alt="" id="bbanner">
+        <p class="ti">在线测试</p>
+        <p class="more">更多课程
+            <span class="iconfont icon-choose"></span>
+        </p>
+        <!-- 在线考试 列表 -->
+        <ul id="tu2">
+        </ul>
+        <div class="null"></div>
+        <p class="ti">精品课程</p>
+        <p class="more">更多课程
+            <span class="iconfont icon-choose"></span>
+        </p>
+        <!-- 精品课程 列表 -->
+        <ul id="tu3">
+        </ul>
+        <img src="./image/图层5.png" alt="" id="cbanner">
+        <div class="null2"></div>
+        <ul id="tu4">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- 工具栏 -->
+    <div id="tool">
+        <ul>
+            <li>
+                <a href="./index.html#tu1">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shu"></use>
+                    </svg>
+                </a>
+                <p>我的课程</p>
+            </li>
+            <li>
+                <a class="iconfont icon-kaoshi-yimidida-" href="./index.html#tu2"></a>
+                <p>我的考试</p>
+            </li>
+            <li>
+                <a class="iconfont icon-fanhuidingbu-" href="./index.html#head"></a>
+                <p>返回顶部</p>
+            </li>
+        </ul>
+    </div>
+    <!-- 底部标识 -->
+    <div id="foot">
+        <div id="under">
+            首页 | 关于我们 | 加入我们 | 合作专区 | 联系我们 | AI开放平台 | 意见反馈 | 漏洞提交 | 隐私政策 | 版权声明 | 反盗链声明 | 网上有害信息举报 | 备案公示 | 营业执照 |
+            教师资格证公示
+            <br><br>京ICP备 13030888号 Copyright © 2014-2019 行者信息科技（北京）有限公司 | 地址：北京市新华区马当路388号C座 | 电话：010-66666666 | 京公网安备
+            01010102002533号京网文〔2018〕4086-308号 | 网络文化经营许可证：沪网文󞪒]4086-308号 | 增值电信业务经营许可证：京B2-20150021 |
+            食品经营许可证：JY13101140088888医疗器械经营许可证：京嘉食药监械经营许20188008号 | 互联网药品信息服务资格证书：(京)-经营性-2018-0011 |
+        </div>
+    </div>
+
+    <script src="my.js"></script>
+    <script src="./index.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

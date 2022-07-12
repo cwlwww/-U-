@@ -1,0 +1,1263 @@
+body {
+    background-color: rgb(240, 242, 245);
+}
+
+#head {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.04);
+}
+
+#head2 {
+    width: 1180px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin: 14px 0;
+    vertical-align: top;
+}
+
+#head ul {
+    display: inline-block;
+    margin-left: 121px;
+    vertical-align: top;
+}
+
+#head li {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bolder;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+#head li a {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+#head li:hover {
+    background-color: #80C4AE;
+    color: white;
+}
+
+#head li:hover a {
+    color: white;
+}
+
+#search {
+    display: inline-block;
+    width: 278px;
+    height: 34px;
+    border-radius: 3px;
+    border: 1px #80C4AE solid;
+    margin: 22px 0;
+    float: right;
+    margin-right: 22px;
+}
+
+#search a:nth-child(1) {
+    width: 67px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #80C4AE;
+    border-right: 1px #80C4AE solid;
+}
+
+.icon-daosanjiao {
+    position: relative;
+    left: 9px;
+    font-size: 11px;
+}
+
+.icon-sousuo {
+    width: 18px;
+    line-height: 22px;
+    float: right;
+    margin: 6px;
+    font-size: 18px;
+    color: #80C4AE;
+}
+
+#search input {
+    line-height: 34px;
+    padding-left: 22px;
+}
+
+#login {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    float: right;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    /* display: none; */
+}
+#logimg{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    float: right;
+    margin: 10px;
+    border-radius: 50%;
+    background: url(./img/login/user.png) no-repeat center;
+    display: none;
+}
+
+#loglist {
+    position: relative;
+    z-index: 999;
+    left: 420px;
+    top: 60px;
+    display: none;
+}
+#loglist img{
+    width: 100px;
+}
+#loglist ul{
+    position: absolute;
+    left: -115px;
+    top: 15px;
+}
+#loglist li{
+    display: block;
+    width: 87px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+}
+#loglist li:nth-child(1){
+    background-color: #fff;
+    color: #000;
+    font-weight: bolder;
+}
+#loglist li:nth-last-child(1){
+    background-color: #fff;
+    color: rgb(78, 78, 78);
+    font-weight: 100;
+}
+
+#log {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+
+#logout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+
+#logout .tipp{
+    text-align: left;
+    width: 275px;
+    margin: 5px auto;
+    color: #74C6B3;
+    font-size: 12px;
+    margin-bottom: -10px;
+    opacity: 0;
+}
+#log .tipp{
+    text-align: left;
+    width: 275px;
+    margin: 5px auto;
+    color: #74C6B3;
+    font-size: 12px;
+    margin-bottom: -10px;
+    opacity: 0;
+}
+
+#log .win {
+    width: 520px;
+    height: 522px;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#logout .win {
+    width: 520px;
+    height: 522px;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#logout .tip3 input {
+    display: inline-block;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    float: left;
+}
+
+#logout .tip3 a:nth-child(1) {
+    color: #666666;
+}
+
+.win #logo {
+    display: inline-;
+    margin: 30px auto;
+    height: 40px;
+}
+
+.win .icon-guanbi {
+    color: #999999;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.win .in {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #333333;
+    margin: -10px auto;
+    display: block;
+    width: 183px;
+    background: white;
+}
+
+.win #tubiao {
+    width: 480px;
+    height: 109px;
+    margin: 0 auto;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#logout .win #tubiao {
+    width: 480px;
+    height: 0px;
+    margin: 0 auto;
+    border-top: 1px solid #ECECEC;
+    border-bottom: none;
+}
+
+.win .icon {
+    width: 36px;
+    height: 36px;
+    margin: 36px 12px;
+    line-height: 109px;
+}
+
+.win input {
+    width: 275px;
+    height: 40px;
+    border: 1px solid #80C4AE;
+    border-radius: 4px;
+    padding-left: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
+.win .name {
+    margin-top: 33px;
+}
+
+.win .password {
+    margin-top: 20px;
+}
+
+.win .yzm {
+    display: inline-block;
+    width: 136px;
+    margin-top: 20px;
+    vertical-align: bottom;
+}
+.win #yanzhengma{
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+    display: inline-block;
+    width: 136px;
+    margin-top: 20px;
+    vertical-align: bottom;
+}
+
+.win #btnin {
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: #74C6B3;
+    border-radius: 4px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto 10px auto;
+}
+
+.win .tip3 {
+    width: 300px;
+    height: 20px;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.win .tip3 a {
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #74C6B3;
+}
+
+.win .tip3 a:nth-child(1) {
+    float: left;
+}
+
+.win .tip3 a:nth-child(2) {
+    float: right;
+}
+
+.win .tip3 span:nth-child(3) {
+    float: right;
+}
+
+
+
+#body {
+    width: 1180px;
+    margin: 0 auto;
+}
+#bhead {
+    width: 1180px;
+    height: 350px;
+    position: relative;
+}
+#tbanner {
+    position: relative;
+    height: 350px;
+}
+#tbanner li{
+    position: absolute;
+}
+#bhead #lb{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    z-index: 1;
+}
+#bhead #lb p{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    line-height: 40px;
+    padding: 0 20px;
+}
+#bhead #lb .active{
+    color: #80C4AE;
+}
+
+.ti {
+    display: inline-block;
+    border-left: 5px solid #80C4AE;
+    width: 90px;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    font-size: 20px;
+    color: #333333;
+    vertical-align: text-bottom;
+    margin-top: 20px;
+}
+
+.more {
+    display: inline-block;
+    float: right;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #74C6B3;
+    letter-spacing: 0;
+    margin-top: 20px;
+}
+
+
+
+#body ul {
+    margin-top: 24px;
+}
+
+#body ul li {
+    display: inline-block;
+    float: left;
+    background: #f8f8f8;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+#body #tu1 li {
+    width: 280px;
+    height: 210px;
+}
+
+#body #tu1 li:nth-child(4) {
+    margin: 0;
+}
+
+#body #tu1 li:nth-child(8) {
+    margin: 0;
+}
+
+#body .bb {
+    width: 71px;
+    height: 33px;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 4px 0 12px 0;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 33px;
+}
+
+#tu1 .img {
+    height: 163px;
+    background: no-repeat;
+}
+
+.study {
+    height: 33px;
+    background: rgba(0, 0, 0, 0.20);
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 33px;
+    position: relative;
+    top: 97px;
+    padding-left: 14px;
+}
+
+.mc {
+    width: 200px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.ks {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #7A7A7A;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+.free {
+    display: inline-block;
+    width: 86px;
+    height: 30px;
+    background: #74C6B3;
+    border-radius: 4px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+#tool {
+    display: inline-block;
+    position: fixed;
+    top: 60%;
+}
+
+#tool li {
+    width: 70px;
+    height: 70px;
+    background: #ffefd6;
+    margin: 5px 0 0 20px;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #80C4AE;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+#tool .icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+}
+
+#tool .icon-kaoshi-yimidida- {
+    display: block;
+    font-size: 33px;
+    color: #74C6B3;
+    padding-top: 10px;
+}
+
+#tool .icon-fanhuidingbu- {
+    font-size: 33px;
+    color: #74C6B3;
+    padding-top: 40px;
+}
+
+#bbanner {
+    margin: 26px auto 45px auto;
+}
+
+#body #tu2 li {
+    width: 380px;
+    height: 200px;
+}
+
+#body #tu2 li:nth-child(3) {
+    margin: 0;
+}
+
+#body #tu2 li:nth-child(6) {
+    margin: 0;
+}
+
+#body #tu2 .kaoshi {
+    font-family: PingFangSC-Medium;
+    letter-spacing: 0;
+    height: 0px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#body #tu2 .kaoshi p {
+    line-height: 35px;
+    font-size: 21px;
+}
+
+#body #tu2 .kaoshi span {
+    margin: 11px;
+}
+
+.study span {
+    float: right;
+    padding-right: 12px;
+}
+
+#body #tu2 .mc{
+    margin-top: 10px;
+}
+#body #tu2 .free {
+    margin-top: -25px;
+}
+#body #tu5{
+    height: 1150px;
+}
+#body #tu5 .mc{
+    margin-top: 15px;
+}
+#body #tu5 .free{
+    margin-top: -15px;
+}
+#body .null{
+    height: 500px;
+}
+#body .null2{
+    height: 40px;
+}
+
+.img {
+    height: 163px;
+}
+
+#tu3 {
+    width: 880px;
+}
+
+#tu3 li {
+    width: 280px;
+    margin-bottom: 21px;
+}
+
+#body #tu3 li:nth-child(3) {
+    margin: 0;
+}
+
+#body #tu3 li:nth-child(6) {
+    margin: 0;
+}
+
+#body #cbanner {
+    display: inline-block;
+    margin-left: 15px;
+}
+#body #tu4 li {
+    float: left;
+    width: 380px;
+    height: 100px;
+}
+
+#tu4 li:nth-child(1) {
+    background: url(./image/同步课程.png);
+}
+
+#tu4 li:nth-child(2) {
+    background: url(./image/在线练习.png);
+}
+
+#tu4 li:nth-child(3) {
+    background: url(./image/精品课程.png);
+    margin: 0;
+}
+
+#foot {
+    width: 100%;
+    height: 264px;
+    background: #333333;
+    margin-top: 86px;
+    overflow: hidden;
+}
+
+#under {
+    width: 1153px;
+    height: 90px;
+    background: #333333;
+    margin: 87px auto;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+#body .choice {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+#body .choice:nth-child(1) {
+    height: 60px;
+    margin-top: 20px;
+}
+
+#body .ti2 {
+    display: inline-block;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    width: 80px;
+}
+
+#body .choice:nth-child(1) select {
+    width: 190px;
+    height: 40px;
+    border: 1px solid #80C4AE;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding-left: 18px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+#body .choice a {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    width: 52px;
+    height: 26px;
+    border-radius: 4px;
+    line-height: 26px;
+}
+
+#body .choice a:hover {
+    background: #80C4AE;
+    color: #FFFFFF;
+}
+
+#body #tu5 li {
+    width: 380px;
+    height: 256px;
+    margin-right: 20px;
+}
+
+#body #tu5 .img {
+    height: 196px;
+    background: url(./image/图层12.png);
+}
+
+#body #tu5 li:nth-child(3) {
+    margin-right: 0;
+}
+
+#body #tu5 li:nth-child(6) {
+    margin-right: 0;
+}
+
+#body #tu5 li:nth-child(9) {
+    margin-right: 0;
+}
+
+#body #tu5 li:nth-child(12) {
+    margin-right: 0;
+}
+
+#body #tu5 .img .study {
+    position: relative;
+    top: 132px;
+}
+
+#page {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    top: 30px;
+}
+
+#page a {
+    width: 38px;
+    height: 40px;
+    margin-left: 12px;
+    line-height: 40px;
+    display: inline-block;
+}
+#page #up{
+    width: 80px;
+}
+#page #next{
+    width: 80px;
+}
+#page #opage{
+    display: inline-block;
+}
+.lpage{
+    background-color: #80C4AE;
+    color: #FFFFFF;
+}
+#body .choice .blue{
+    background: #80C4AE;
+    color: #FFFFFF;
+}
+
+#page a:hover {
+    background: #74C6B3;
+    color: white;
+}
+
+#body #ct {
+    height: 60px;
+    line-height: 60px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+#body #ct span {
+    margin: 32px;
+    color: #333333;
+}
+
+#body #ct span:nth-child(1) {
+    margin-left: 0px;
+}
+
+#body #vediowin {
+    display: inline-block;
+    width: 860px;
+    height: 580px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    vertical-align: top;
+    background-size: 100%;
+}
+
+#body #vediowin video {
+    width: 100%;
+    height: 100%;
+}
+
+#body #vediocon {
+    width: 260px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 48px;
+}
+
+#body #vediocon .vt {
+    font-family: PingFangSC-Semibold;
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+#body #vediocon .vc {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+#body #vediocon .vc span {
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    color: #FF6666;
+    text-align: center;
+    line-height: 22px;
+}
+
+#body #vediocon a {
+    display: inline-block;
+}
+
+#body #vediocon .jg {
+    height: 48px;
+    font-family: PingFangSC-Semibold;
+    font-size: 36px;
+    color: #74C6B3;
+    text-align: center;
+    margin-top: 83px;
+    margin-right: 30px;
+    vertical-align: bottom;
+    line-height: 48px;
+}
+
+#body #vediocon .fs {
+    width: 130px;
+    height: 48px;
+    border: 2px solid #74C6B3;
+    border-radius: 4px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #74C6B3;
+    text-align: center;
+    line-height: 48px;
+}
+
+#body #vediocon .jg {
+    font-family: PingFangSC-Semibold;
+    font-size: 36px;
+    color: #74C6B3;
+    text-align: center;
+    margin-top: 83px;
+}
+
+#body #vediocon .buy {
+    display: block;
+    width: 260px;
+    height: 48px;
+    background: #74C6B3;
+    border-radius: 4px;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 48px;
+    margin-top: 12px;
+}
+
+#body #vediocon .buy span {
+    margin: 0 15px;
+}
+
+#body #teacher {
+    height: 156px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#body #teacher #tt {
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0;
+    margin: 20px;
+}
+
+#body #teacher #touxiang {
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 19px;
+    vertical-align: top;
+}
+
+#body #teacher .jj {
+    width: 154px;
+    display: inline-block;
+    height: 55px;
+    margin-left: 20px;
+    border-right: #80C4AE 1px solid;
+    border-radius: 2.5px;
+}
+
+#body #teacher .jj p:nth-child(1) {
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0;
+    float: top;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#body #teacher .jj p:nth-child(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+#body #teacher .js {
+    width: 850px;
+    display: inline-block;
+    margin-left: 34px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+#body #lession {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.09);
+    margin-top: 20px;
+    overflow: hidden;
+    background: no-repeat center;
+    background-size: 100%;
+    background-color: #fff;
+}
+#lession img{
+    width: 100%;
+}
+#body #lession #klist {
+    height: 66px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.09);
+    text-align: center;
+}
+
+#body #lession #klist a {
+    width: 80px;
+    height: 66px;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 66px;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+#body #lession #klist a:hover {
+    background: #80C4AE;
+    color: white;
+}
+
+#body #lession dl {
+    margin-left: 40px;
+    margin-block-start: auto;
+}
+
+#body #lession dl dt {
+    width: 100%;
+    margin: 30px 0 20px 0;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+#body #lession dl dd {
+    height: 41px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 41px;
+}
+
+#body #lession dl .icon-24gf-playCircle {
+    margin-right: 0.9%;
+    display: inline-block;
+    color: #80C4AE;
+}
+
+#body #lession dl .icon-daosanjiao {
+    float: right;
+    margin-right: 40px;
+    color: #999999;
+    font-size: 8px;
+}
+
+#body #lession dl .icon-zhengsanjiao {
+    float: right;
+    margin-right: 30px;
+    color: #999999;
+    font-size: 8px;
+}
+
+#body #zk {
+    text-align: center;
+    display: block;
+    margin: 49px auto;
+    font-family: PingFangSC-Semibold;
+    font-size: 22px;
+    color: #74C6B3;
+    letter-spacing: 0;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#body #lession dl .ltime {
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    float: right;
+    margin-right: 40px;
+}
+
+#body #lession dl .lplayer {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #74C6B3;
+    border-radius: 4px;
+    float: right;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #74C6B3;
+    text-align: center;
+    margin: 3px 65px;
+    line-height: 30px;
+    display: none;
+}
+
+#body #lession dl dd:hover {
+    color: #80C4AE;
+    background: rgba(128, 196, 174, 0.2)
+}
+
+#body #lession dl dd:hover .lplayer {
+    display: inline-block;
+}
+
+#body #lession dl dd:hover .ltime {
+    display: none;
+}
+
+#body #vediolist {
+    width: 300px;
+    display: inline-block;
+    background-color: #fff;
+    height: 580px;
+    overflow: hidden;
+}
+#body #vediolist .tbd{
+    width: 325px;
+    height: 540px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: none;
+}
+#body #vediolist .tbd ul li {
+    height: 41px;
+    line-height: 41px;
+    padding-left: 26px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    margin: 0;
+    box-shadow: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#body #vediolist ul .type {
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+#body #vediolist ul li:hover {
+    color: #fff;
+    background-color: #80C4AE;
+}
+
+#body #vediolist div {
+    height: 35;
+    width: 250px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    margin: 0 auto;
+}
+
+#body #vediolist div button {
+    width: 81px;
+    height: 35px;
+}
+
+#body #vediolist div button:nth-child(1) {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #80C4AE;
+}
+
+#body #vediolist div button:hover {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #80C4AE;
+}
+
+#body #vediopinglun {
+    width: 300px;
+    display: inline-block;
+    background-color: #fff;
+    height: 580px;
+    overflow: hidden;
+}
+#body #vediopinglun ul{
+    overflow: scroll;
+    height: 390px;
+    width: 325px;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+
+#body #vediopinglun div {
+    height: 35;
+    width: 250px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    margin: 0 auto;
+}
+
+#body #vediopinglun div button {
+    width: 81px;
+    height: 35px;
+}
+
+#body #vediopinglun div button:nth-child(2) {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #80C4AE;
+}
+
+#body #vediopinglun div button:hover {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #80C4AE;
+}
+
+#body #vediopinglun textarea {
+    display: block;
+    width: 260px;
+    height: 80px;
+    font-size: 14px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin: 20px auto;
+    resize: none;
+}
+
+#body #vediopinglun button:nth-child(3) {
+    width: 54px;
+    height: 30px;
+    background-color: #74C6B3;
+    float: right;
+    color: #fff;
+    background: #74C6B3;
+    border-radius: 4px;
+    margin: -10px 10px 10px 10px;
+}
+#body #vediopinglun ul li {
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: none;
+    width: 220px;
+    line-height: 36px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#body #vediopinglun ul li .tx {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+
+
+#body #vediopinglun ul li span:nth-child(2) {
+    line-height: 36px;
+    margin-left: 10px;
+    
+}
+#body #vediopinglun ul li span:nth-child(3) {
+    line-height: 36px;
+    float: right;
+}
+
+#body #vediopinglun ul li .text {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.10);
+}
